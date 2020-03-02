@@ -1,0 +1,112 @@
+.filters {
+    position: relative;
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+button {
+    position: absolute;
+    font-size: 18x;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    right: 30px;
+    top: 15%;
+}
+button:hover {
+    opacity: 0.9;
+}
+.locations {
+    height: 100%
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    position: relative;
+    float: left;
+    display: inline-grid;
+}
+.amenities {
+    height: 100%;
+    width: 25%;
+    float: left;
+    position: relative;
+    display: inline-grid;
+}
+.filters div {
+    display: inline-grid;
+    width: 30%;
+    height: 100%;
+}
+.flters h2 {
+    margin-left: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.filters h3 {
+    margin-left: 15%;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.filters h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 15%;
+    margin-top: 0;
+}
+.locations .popover {
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: none;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 0;
+}
+li {
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+.amenities .popover {
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: none;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 0;
+}
+.locations:hover .popover {
+    display: table-cell;
+}
+
+.locations-list {
+    transform: translateX(20%);
+}
+.amenities-list {
+    transform: translateX(20%);
+}
+.amenities:hover .popover {
+    display: table-cell;
+}
+.locations h2 {
+    font-size: 16px;
+}
